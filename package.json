@@ -1,0 +1,36 @@
+{
+  "name": "@upcodee/store",
+  "version": "1.0.0",
+  "description": "Store is TS library for loading data from remote and local sources based on Kotlin library Store 4 from Dropbox",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "barrelsby --delete -d src && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upcodee/store.git"
+  },
+  "keywords": [
+    "typescript",
+    "store",
+    "network",
+    "cache",
+    "dropbox",
+    "source",
+    "of",
+    "truth",
+    "javascript"
+  ],
+  "author": "upcodee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upcodee/store/issues"
+  },
+  "homepage": "https://github.com/upcodee/store#readme",
+  "devDependencies": {
+    "barrelsby": "^2.2.0",
+    "typescript": "^4.1.5"
+  }
+}
